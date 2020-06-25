@@ -1,0 +1,55 @@
+span, h2 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.flexmydiv {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.badge-type {
+    color: #fff;
+    background: #705848;
+    border: 1px solid #49392F;
+    margin: 5px;
+    margin-top:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-category {
+    color: #fff;
+    background: #C03028;
+    border: 1px solid #7D1F1A;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-pp {
+    color: #fff;
+    background: #EE99AC;
+    border: 1px solid #9B6470;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-accuracy {
+    color: #fff;
+    background: #B8B8D0;
+    border: 1px solid #787887;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            # {{ id }}
+          </div>
+      <a [routerLink]="['/poke', name]">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{ id }}.png" 
+        class="card-img-top">
+      </a>
+      <div class="card-body">
+        <a [routerLink]="['/poke', name]">
+        <p class="card-text">{{ name }}</p>
+        </a>
+      </div>
+    </div>
+</div>

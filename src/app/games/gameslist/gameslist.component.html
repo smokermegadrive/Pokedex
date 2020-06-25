@@ -1,0 +1,22 @@
+<div class="container-fluid mx-auto ancho">
+    <h2>
+        Game List
+    </h2>
+    <span *ngIf="region">Region: {{region.name}}</span>
+    <div class="mt-5 mb-4">
+        <ul *ngFor='let game of games' class="list-group mx-auto">
+            <li class="list-group-item">{{game.name}}</li>
+        </ul>
+    </div>
+</div>
+    
+    <h2 style="text-align: center">
+        Species List
+    </h2>
+
+<div class="mt-5 mb-4 row">
+    <app-pokemon-card *ngFor="let species of pokemonSpecies" id={{species.id}} name={{species.name}}></app-pokemon-card>
+    <!--<ul *ngFor='let species of pokemonSpecies' class="list-group">
+        <a [routerLink]="['/poke', species.name]" class="list-group-item list-group-item-action">{{species.name}}</a>
+    </ul>-->
+</div>

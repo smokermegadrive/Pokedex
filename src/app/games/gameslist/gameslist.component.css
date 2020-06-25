@@ -1,0 +1,15 @@
+a, li, span{
+    text-transform: capitalize;
+ }
+
+.colorcito:hover{
+   background-color: #F6F1F1;
+}
+
+.ancho{
+    max-width: 1024px;
+ }
+
+span{
+   margin-left: 80%;
+ }

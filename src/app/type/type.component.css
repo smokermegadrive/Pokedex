@@ -1,0 +1,201 @@
+.badge {
+    text-transform: capitalize;
+}
+
+.badge-flying {
+    color: #fff;
+    background-color: #A890F0;
+    border: 1px solid #6D5E9C;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-fire {
+    color: #fff;
+    background-color: #F08030;
+    border: 1px solid #9C531F;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-normal {
+    color: #fff;
+    background: #A8A878;
+    border: 1px solid #6D6D4E;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-fighting {
+    color: #fff;
+    background: #C03028;
+    border: 1px solid #7D1F1A;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-water {
+    color: #fff;
+    background: #6890F0;
+    border: 1px solid #445E9C;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-poison {
+    color: #fff;
+    background: #A040A0;
+    border: 1px solid #682A68;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-electric {
+    color: #fff;
+    background: #F8D030;
+    border: 1px solid #A1871F;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-ground {
+    color: #fff;
+    background: #E0C068;
+    border: 1px solid #927D44;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-psychic {
+    color: #fff;
+    background: #F85888;
+    border: 1px solid #A13959;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-rock {
+    color: #fff;
+    background: #B8A038;
+    border: 1px solid #786824;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-ice {
+    color: #fff;
+    background: #98D8D8;
+    border: 1px solid #638D8D;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-bug {
+    color: #fff;
+    background: #A8B820;
+    border: 1px solid #6D7815;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-dragon {
+    color: #fff;
+    background: #7038F8;
+    border: 1px solid #4924A1;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-ghost {
+    color: #fff;
+    background: #705898;
+    border: 1px solid #493963;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-dark {
+    color: #fff;
+    background: #705848;
+    border: 1px solid #49392F;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-steel {
+    color: #fff;
+    background: #B8B8D0;
+    border: 1px solid #787887;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-fairy {
+    color: #fff;
+    background: #EE99AC;
+    border: 1px solid #9B6470;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-grass {
+    color: #fff;
+    background: #78C850;
+    border: 1px solid #4E8234;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

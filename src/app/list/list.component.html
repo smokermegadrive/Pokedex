@@ -1,0 +1,35 @@
+<!--<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">Nombre</th>
+      </tr>
+    </thead>
+    <tbody >
+      <tr *ngFor="let poke of loadedPoke">
+          <td><a [routerLink]="['/poke', poke.id]">{{ poke.name }}</a></td>
+      </tr>
+    </tbody>
+  </table>-->
+<!--<div class="container">
+  <div class="card" *ngFor="let poke of loadedPoke">
+      <div class="card-header">
+          # {{ poke.id }}
+        </div>
+    <a [routerLink]="['/poke', poke.id]">
+    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{ poke.id }}.png" 
+    class="card-img-top">
+    </a>
+    <div class="card-body">
+      <a [routerLink]="['/poke', poke.id]">
+      <p class="card-text">{{ poke.name }}</p>
+      </a>
+    </div>
+  </div>
+</div>-->
+<div class="row">
+  <app-pokemon-card *ngFor="let poke of loadedPoke" id={{poke.id}} name={{poke.name}}></app-pokemon-card>
+</div>
+<br>
+
+  <button class="btn btn-primary btn-lg" *ngIf="previousPage" [disabled]="fetching" (click)="loadPokes(previousPage); previousPag();" id="previousButton">Previous</button>
+  <button class="btn btn-primary btn-lg" *ngIf="nextPage" [disabled]="fetching" (click)="nextPag(); loadPokes(nextPage);" id="nextButton">  Next  </button>
